@@ -7,6 +7,7 @@
   
   body {
     background-image: url('fundo1.png');
+    background-color: antiquewhite;
     background-size: auto 100vh; 
     font-family: 'Source Code Pro', monospace;
     height: 100vh;
@@ -53,7 +54,7 @@
   }
   
   .menu {
-    background-color: whitesmoke(13, 8, 31);
+    background-color: rgb(0, 0, 0);
     position: fixed;
     width: 100vw;
     top: 0;
@@ -77,12 +78,12 @@
   
   .menu a:active,
   .menu a:hover {
-    background-color: black;
-    color: whitesmoke;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   a {
-    color: black;
+    color: rgb(218, 3, 3);
     text-decoration: none;
   }
   
